@@ -1,4 +1,3 @@
-// hooks/useNews.ts
 import { useQuery } from 'react-query';
 
 const fetchNews = async () => {
