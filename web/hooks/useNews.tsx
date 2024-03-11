@@ -3,7 +3,7 @@ import { useQuery } from 'react-query';
 
 const fetchNews = async () => {
   try {
-    const response = await fetch('http://servicodados.ibge.gov.br/api/v3/noticias/');
+    const response = await fetch('https://servicodados.ibge.gov.br/api/v3/noticias/');
     if (!response.ok) {
       throw new Error(`Erro ao buscar notícias: ${response.statusText}`);
     }
